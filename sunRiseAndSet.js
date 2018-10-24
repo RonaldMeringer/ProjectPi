@@ -10,7 +10,7 @@ fetch('http://api.usno.navy.mil/rstt/oneday?date=10/14/2018&loc=Phoenix, AZ')
         // Examine the text in the response
         response.json().then(function(data) {
         console.log(data);
-        document.getElementById("sunRiseAndSet").innerHTML = data(3);
+        // document.getElementById("sunRiseAndSet").innerHTML = data(3);
         });
     }
 )
